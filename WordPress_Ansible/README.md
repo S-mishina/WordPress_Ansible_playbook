@@ -6,9 +6,9 @@ S-mishina
 Requirements
 ------------
 
-OS:
-ubuntu20.04
-environment:
+OS:<br>
+ubuntu20.04<br>
+environment:<br>
 SAKURA_VPS<br>
 local
 
