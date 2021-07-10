@@ -7,7 +7,7 @@ Requirements
 ------------
 
 OS:ubuntu20.04
-environment:SAKURA_VPS
+environment:SAKURA_VPS<br>
             local
 
 
