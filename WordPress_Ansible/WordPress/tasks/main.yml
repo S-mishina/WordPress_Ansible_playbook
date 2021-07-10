@@ -1,0 +1,33 @@
+---
+# tasks file for WordPress
+#apt　update
+- name: apt update
+  become: yes
+  apt:
+    update_cache: yes
+
+#apt install apache
+- name: apt apache
+  become: yes
+  apt:
+    name: apache2
+
+#apt install php
+- name: apt php7.4
+  become: yes
+  apt:
+    name: apache2
+
+#WordPress download
+- name: WordPress download
+  become: yes
+  get_url:
+    url: https://wordpress.org/latest.tar.gz
+    dest: /var/www/html/
+
+#File decompression
+- name: start metabase
+  become: yes
+  command: tar -xzvf /var/www/html/wordpress-5.7.2.tar.gz -C /var/www/html/
+
+
