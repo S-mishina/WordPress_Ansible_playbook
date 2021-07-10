@@ -6,9 +6,11 @@ S-mishina
 Requirements
 ------------
 
-OS:ubuntu20.04
-environment:SAKURA_VPS<br>
-            local
+OS:
+ubuntu20.04
+environment:
+SAKURA_VPS<br>
+local
 
 
 Example Playbook
